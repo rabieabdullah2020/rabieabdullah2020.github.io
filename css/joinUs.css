@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #4e4747;
+}
+.row {
+    background: #fff;
+    border-radius: 30px;
+}
+

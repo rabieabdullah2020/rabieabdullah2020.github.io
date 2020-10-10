@@ -1,0 +1,13 @@
+section.text-center .my-5 {
+    color: green;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+}
+section.text-center .bg-primary {
+    color: #fff;
+}
+section.text-center .mt-4 {
+    color: rgb(15, 22, 12);
+    font-size: 16px;
+}

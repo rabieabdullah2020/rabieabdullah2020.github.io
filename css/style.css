@@ -1,0 +1,139 @@
+
+ body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+/*start navbar*/
+.header {
+    background-color: #00A19B;
+    color: #D8F1EF;
+}
+.navbar-nav {
+    margin: auto;
+}
+.header .navbar-brand {
+    font-size: 25px;
+}
+.header .navbar-brand span,
+.header .navbar-brand #h {
+font-size: 26px;
+font-weight: bold;
+}
+.header .navbar-brand span {
+    color: #EA4F1C;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #aae17f;
+    border-bottom: 2px solid #EA4F1C;
+}
+.header .navbar-brand #h {
+    color: #d6c90c;
+}
+.header .form-inline {
+    background-color: #EA4F1C;
+    color: white;
+}
+/* End Navbar*/
+
+/*start carousel*/
+
+.carousel .carousel-item img{
+    height: 900px;
+    z-index: 3;
+}
+.carousel .carousel-item h5 {
+    color: #d6c90c;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 2;
+
+}
+
+.carousel .carousel-item p {
+    font-size: 25px;
+    color: #B6E4E2;
+    text-transform: capitalize;
+    z-index: 2;
+}
+.carousel .slider{
+      height: 100px;
+    z-index: 3;
+
+
+}
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    z-index: 3;
+}
+
+.carousel .slider .intro{
+      text-align: center;
+      padding-top: 210px;
+}
+
+
+.overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*End carousel*/
+
+/*About Us*/
+ 
+.mt-4 h1,
+.testimonials h1 {
+    margin-bottom: 50px;
+    border-bottom: 2px solid green;
+    margin: auto;
+}
+
+/*End about us*/
+
+/* start footer*/
+.footer {
+    color: black;
+    background-color: #B6E4E2;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 28px;
+    margin-top: 30px;
+    
+}
+.footer span,.footer-a span {
+	margin-top: 2px;
+}
+.footer-a{
+    margin-top: 153px;
+}
+/* end footer*/
+
+@media (max-width: 768px) {
+    .mt-4 h1 {
+        font-size: 24px;
+    }
+    section.p-1 h2 {
+        font-size: 18px;
+    }
+    .footer span{
+        font-size: 18px;
+    }
+}
+ 
+/* some important style */
+.clearfix {
+    clear: both
+}
