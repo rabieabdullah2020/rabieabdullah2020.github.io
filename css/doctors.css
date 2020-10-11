@@ -32,6 +32,9 @@
     color: floralwhite;
   }
   
+.testimonials h1 {
+  margin-bottom: 40px;
+}
   @media (min-width: 768px) {
     header.masthead {
       padding-top: 12rem;
@@ -39,5 +42,13 @@
     }
     header.masthead h1 {
       font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .testimonials h1 {
+      font-size: 25px;
+      font-weight: 600;
+      margin-top: 20px;
     }
   }

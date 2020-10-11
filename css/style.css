@@ -94,12 +94,19 @@ font-weight: bold;
  
 .mt-4 h1,
 .testimonials h1 {
-    margin-bottom: 50px;
     border-bottom: 2px solid green;
     margin: auto;
 }
-
+.mt-4 p {
+    font-weight: 400;
+}
 /*End about us*/
+section.my-5 .h1-responsive {
+    margin: auto;
+    width: 200px;
+    border-bottom: 2px solid green;
+
+}
 
 /* start footer*/
 .footer {
