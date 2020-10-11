@@ -18,6 +18,7 @@
     font-weight: 700;
   }
   
+  
   header.masthead {
     position: relative;
     background-color: #7D8CBC;
@@ -45,8 +46,17 @@
     }
   }
 
-  @media (min-width: 768px) {
-    header.masthead h1 {
-      font-size: 2rem;
+  @media (max-width: 768px) {
+    .testimonials .mt-4 .col-lg-4 {
+      margin-bottom: 3rem;
+    }
+    .testimonials h1 {
+      font-size: 27px;
+      font-weight: 500;
+      margin-top: 3rem;
+    }
+    h5 {
+      margin-top: 1rem;
+      font-size: 17px;
     }
   }

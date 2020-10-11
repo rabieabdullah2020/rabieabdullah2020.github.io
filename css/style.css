@@ -1,12 +1,14 @@
 
  body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+    overflow-x: hidden;
+}
 /*start navbar*/
 .header {
     background-color: #00A19B;
     color: #D8F1EF;
 }
+
 .navbar-nav {
     margin: auto;
 }
@@ -91,16 +93,96 @@ font-weight: bold;
 /*End carousel*/
 
 /*About Us*/
- 
+ /*Start Team Member Section*/
 .mt-4 h1,
 .testimonials h1 {
     border-bottom: 2px solid green;
     margin: auto;
+    color: currentColor;
 }
 .mt-4 p {
     font-weight: 400;
 }
 /*End about us*/
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #000000;
+    color: #ffffff
+}
+
+#heading {
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: normal;
+    font-family: Century Gothic
+}
+
+.line {
+    background-color: #2bff00;
+    border-radius: 50px;
+    border: none;
+    padding: 2px;
+    height: 4px;
+    width: 100px;
+    margin-top: 5px
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%)
+}
+
+@media (max-width: 768px) {
+    .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 0;
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.gap {
+    height: 130px
+}
+
+@media (max-width: 768px) {
+     .gap {
+        height: 0
+    }
+}
+
+ .container-fluid .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+.container-fluid img {
+    width: 175px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.mt-2, .my-2 {
+    margin-top: 2.5rem;
+}
+
+.container-fluid .image-name {
+    font-weight: bold
+}
+
+.container-fluid .fit-image {
+    width: 100%;
+    object-fit: cover
+}
+ /*End Team Member Section*/
+
 section.my-5 .h1-responsive {
     margin: auto;
     width: 200px;
@@ -129,28 +211,23 @@ section.my-5 .h1-responsive {
 /* end footer*/
 
 @media (max-width: 768px) {
+      .carousel-inner{
+        width:100%;
+        max-height: 600px !important;
+      }
     .mt-4 h1 {
         font-size: 24px;
     }
     section.p-1 h2 {
         font-size: 18px;
     }
+    .mb-4, .my-4 {
+        margin-bottom: 2.5rem;
+    }
     .footer span{
         font-size: 18px;
     }
 }
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-    /* For portrait layouts only */
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 17px;
-    }
-    .mt-4 p {
-        font-size: 15px;
-    }
-    .testimonials h1 {
-        font-size: 40px;
-    }
-  }
 
 @media (min-width: 768px) {
     .navbar-light .navbar-nav .nav-link {
