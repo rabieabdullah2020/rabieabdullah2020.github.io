@@ -139,6 +139,18 @@ section.my-5 .h1-responsive {
         font-size: 18px;
     }
 }
+
+@media (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 17px;
+    }
+    .mt-4 p {
+        font-size: 15px;
+    }
+    .testimonials h1 {
+        font-size: 40px;
+    }
+}
  
 /* some important style */
 .clearfix {
