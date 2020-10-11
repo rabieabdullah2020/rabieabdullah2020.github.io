@@ -139,10 +139,22 @@ section.my-5 .h1-responsive {
         font-size: 18px;
     }
 }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 17px;
+    }
+    .mt-4 p {
+        font-size: 15px;
+    }
+    .testimonials h1 {
+        font-size: 40px;
+    }
+  }
 
 @media (min-width: 768px) {
     .navbar-light .navbar-nav .nav-link {
-        font-size: 17px;
+        font-size: 20px;
     }
     .mt-4 p {
         font-size: 15px;
