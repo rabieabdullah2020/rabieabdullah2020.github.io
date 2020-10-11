@@ -136,6 +136,10 @@ font-weight: bold;
     transform: translateY(-45%)
 }
 
+p.gold{
+    color: #d6c90c;
+}
+
 @media (max-width: 768px) {
     .vertical-center {
         margin: 0;
